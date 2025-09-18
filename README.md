@@ -27,7 +27,7 @@
 
 ```bash
 # Clone repository
-git clone 
+git clone <repository-url>
 cd cobre-invoice-processor
 
 # Install dependencies
@@ -40,11 +40,14 @@ cp .env.example .env
 ### 2. Configure API Key
 
 **Create your environment file from template:**
+
 ```bash
 # Copy the example template to create your .env file
 cp .env.example .env
+```
 
 **Edit `.env` with your actual Anthropic API key:**
+
 ```bash
 # Open .env in your preferred editor
 nano .env
@@ -55,7 +58,6 @@ ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
 ANTHROPIC_API_KEY=sk-ant-api03-YOUR-REAL-KEY-HERE
 
 # Keep all other settings unchanged
-
 ```
 
 ### 3. Run Invoice Processing
