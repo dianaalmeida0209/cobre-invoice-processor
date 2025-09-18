@@ -39,12 +39,10 @@ cp .env.example .env
 
 ### 2. Configure API Key
 
-Edit `.env` file:
+**Create your environment file from template:**
 ```bash
-ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
-MODEL_NAME=claude-3-5-sonnet-20241022
-ENABLE_CACHING=true
-LOG_LEVEL=INFO
+# Copy the example template to create your .env file
+cp .env.example .env
 ```
 
 ### 3. Run Invoice Processing
