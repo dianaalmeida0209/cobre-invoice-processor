@@ -43,6 +43,19 @@ cp .env.example .env
 ```bash
 # Copy the example template to create your .env file
 cp .env.example .env
+
+**Edit `.env` with your actual Anthropic API key:**
+```bash
+# Open .env in your preferred editor
+nano .env
+
+# Replace this line:
+ANTHROPIC_API_KEY=sk-ant-api03-your-key-here
+# With your actual API key:
+ANTHROPIC_API_KEY=sk-ant-api03-YOUR-REAL-KEY-HERE
+
+# Keep all other settings unchanged
+
 ```
 
 ### 3. Run Invoice Processing
