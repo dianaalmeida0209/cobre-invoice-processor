@@ -1,0 +1,260 @@
+{
+  "analysis_date": "2025-09-18T08:38:07.417286",
+  "data_source": "cobre_complete_results_20250917_110238.json",
+  "statistics": {
+    "percentiles": {
+      "P10": 8503163.200000001,
+      "P25": 18417000.0,
+      "P50": 47329800.0,
+      "P75": 98720000.0,
+      "P90": 190680000.00000012,
+      "P95": 275730000.0000002,
+      "P99": 558207999.9999994
+    },
+    "descriptive": {
+      "count": 39.0,
+      "mean": 88450784.82051282,
+      "median": 47329800.0,
+      "std": 122734424.72346805,
+      "min": 1918000.0,
+      "max": 654500000.0
+    }
+  },
+  "recommended_thresholds": {
+    "auto_approval_cop": 18417000,
+    "supervisor_max_cop": 47329800,
+    "manager_max_cop": 190680000,
+    "executive_threshold": 190680001,
+    "description": "Balanceado - 25% auto-aprobación"
+  },
+  "simulation_results": {
+    "conservative": {
+      "auto_approved": 0,
+      "auto_approved_pct": 0.0,
+      "supervisor_review": 10,
+      "supervisor_pct": 25.64102564102564,
+      "manager_review": 19,
+      "manager_pct": 48.717948717948715,
+      "executive_review": 10,
+      "executive_pct": 25.64102564102564
+    },
+    "balanced": {
+      "auto_approved": 0,
+      "auto_approved_pct": 0.0,
+      "supervisor_review": 20,
+      "supervisor_pct": 51.28205128205128,
+      "manager_review": 15,
+      "manager_pct": 38.46153846153847,
+      "executive_review": 4,
+      "executive_pct": 10.256410256410255
+    },
+    "aggressive": {
+      "auto_approved": 0,
+      "auto_approved_pct": 0.0,
+      "supervisor_review": 29,
+      "supervisor_pct": 74.35897435897436,
+      "manager_review": 8,
+      "manager_pct": 20.51282051282051,
+      "executive_review": 2,
+      "executive_pct": 5.128205128205128
+    }
+  },
+  "trusted_vendors": [],
+  "vendor_analysis": {
+    "techsolutions méxico s.a. de c.v.": {
+      "count": 1,
+      "avg_amount": 45220000.0,
+      "total_volume": 45220000.0
+    },
+    "cloudservices": {
+      "count": 1,
+      "avg_amount": 73500000.0,
+      "total_volume": 73500000.0
+    },
+    "consultoria fiscal sa": {
+      "count": 1,
+      "avg_amount": 72590000.0,
+      "total_volume": 72590000.0
+    },
+    "logística express": {
+      "count": 1,
+      "avg_amount": 26537000.0,
+      "total_volume": 26537000.0
+    },
+    "equipos industriales del norte": {
+      "count": 1,
+      "avg_amount": 100000000.0,
+      "total_volume": 100000000.0
+    },
+    "web solutions inc": {
+      "count": 1,
+      "avg_amount": 52080000.0,
+      "total_volume": 52080000.0
+    },
+    "oficinas premium": {
+      "count": 1,
+      "avg_amount": 34000000.0,
+      "total_volume": 34000000.0
+    },
+    "legal & associates law firm": {
+      "count": 1,
+      "avg_amount": 60690000.0,
+      "total_volume": 60690000.0
+    },
+    "transportes del valle sa": {
+      "count": 1,
+      "avg_amount": 21479500.0,
+      "total_volume": 21479500.0
+    },
+    "maintenance pro": {
+      "count": 1,
+      "avg_amount": 12531750.0,
+      "total_volume": 12531750.0
+    },
+    "agencia creativa digital": {
+      "count": 1,
+      "avg_amount": 127330000.0,
+      "total_volume": 127330000.0
+    },
+    "office supplies plus": {
+      "count": 1,
+      "avg_amount": 7515816.0,
+      "total_volume": 7515816.0
+    },
+    "seguros colombia": {
+      "count": 1,
+      "avg_amount": 138000000.0,
+      "total_volume": 138000000.0
+    },
+    "hardware depot international": {
+      "count": 1,
+      "avg_amount": 85470000.0,
+      "total_volume": 85470000.0
+    },
+    "telecomunicaciones avanzadas sa": {
+      "count": 1,
+      "avg_amount": 12400000.0,
+      "total_volume": 12400000.0
+    },
+    "conference center": {
+      "count": 1,
+      "avg_amount": 47329800.0,
+      "total_volume": 47329800.0
+    },
+    "consultoría en sistemas financieros": {
+      "count": 1,
+      "avg_amount": 116025000.0,
+      "total_volume": 116025000.0
+    },
+    "travel solutions agency": {
+      "count": 1,
+      "avg_amount": 10962000.0,
+      "total_volume": 10962000.0
+    },
+    "energia bogota": {
+      "count": 1,
+      "avg_amount": 9360242.0,
+      "total_volume": 9360242.0
+    },
+    "cybersecurity solutions ltd.": {
+      "count": 1,
+      "avg_amount": 65100000.0,
+      "total_volume": 65100000.0
+    },
+    "papelería corporativa sa": {
+      "count": 1,
+      "avg_amount": 8750000.0,
+      "total_volume": 8750000.0
+    },
+    "coworking-space.com": {
+      "count": 1,
+      "avg_amount": 33180000.0,
+      "total_volume": 33180000.0
+    },
+    "servicios de limpieza integral": {
+      "count": 1,
+      "avg_amount": 27400000.0,
+      "total_volume": 27400000.0
+    },
+    "accounting & tax advisors": {
+      "count": 1,
+      "avg_amount": 16884000.0,
+      "total_volume": 16884000.0
+    },
+    "equipo medico": {
+      "count": 1,
+      "avg_amount": 35462000.0,
+      "total_volume": 35462000.0
+    },
+    "digital transformation consultants": {
+      "count": 1,
+      "avg_amount": 401100000.0,
+      "total_volume": 401100000.0
+    },
+    "software solutions inc": {
+      "count": 1,
+      "avg_amount": 19950000.0,
+      "total_volume": 19950000.0
+    },
+    "premium business park": {
+      "count": 1,
+      "avg_amount": 222600000.0,
+      "total_volume": 222600000.0
+    },
+    "corporate training solutions": {
+      "count": 1,
+      "avg_amount": 72450000.0,
+      "total_volume": 72450000.0
+    },
+    "auditoria-fiscal.co": {
+      "count": 1,
+      "avg_amount": 261800000.0,
+      "total_volume": 261800000.0
+    },
+    "occupational health clinic": {
+      "count": 1,
+      "avg_amount": 32886000.0,
+      "total_volume": 32886000.0
+    },
+    "acueducto de bogotá": {
+      "count": 1,
+      "avg_amount": 3187500.0,
+      "total_volume": 3187500.0
+    },
+    "marketing@promotional-items.com": {
+      "count": 1,
+      "avg_amount": 97440000.0,
+      "total_volume": 97440000.0
+    },
+    "constructora moderna s.a.s.": {
+      "count": 1,
+      "avg_amount": 654500000.0,
+      "total_volume": 654500000.0
+    },
+    "global risk management": {
+      "count": 1,
+      "avg_amount": 73395000.0,
+      "total_volume": 73395000.0
+    },
+    "transporte ejecutivo": {
+      "count": 1,
+      "avg_amount": 1918000.0,
+      "total_volume": 1918000.0
+    },
+    "cloud hosting solutions": {
+      "count": 1,
+      "avg_amount": 179550000.0,
+      "total_volume": 179550000.0
+    },
+    "servicios públicos empresariales": {
+      "count": 1,
+      "avg_amount": 6307000.0,
+      "total_volume": 6307000.0
+    },
+    "international consulting group": {
+      "count": 1,
+      "avg_amount": 182700000.0,
+      "total_volume": 182700000.0
+    }
+  }
+}

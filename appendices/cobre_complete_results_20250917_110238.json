@@ -1,0 +1,1863 @@
+[
+  {
+    "invoice_id": 1,
+    "content_hash": "6a7958b4b78a6fe980a0a4c6e3f76d95",
+    "processing_timestamp": "2025-09-17T11:00:54.554594",
+    "processing_time_seconds": 2.948,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "F-2025-001",
+      "proveedor": "TechSolutions México S.A. de C.V.",
+      "monto_total": 45220000,
+      "moneda": "COP",
+      "fecha": "2025-09-15"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 2,
+    "content_hash": "af97d7caf693f8aa715ffdcd020e4d1d",
+    "processing_timestamp": "2025-09-17T11:00:56.844858",
+    "processing_time_seconds": 2.289,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "CS-2025-445",
+      "proveedor": "CloudServices",
+      "monto_total": 17500,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 3,
+    "content_hash": "44cb9c2e21f27d2203c2de6080f76365",
+    "processing_timestamp": "2025-09-17T11:00:58.768103",
+    "processing_time_seconds": 1.922,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "2025-INV-1102",
+      "proveedor": "Consultoria Fiscal SA",
+      "monto_total": 72590000,
+      "moneda": "COP",
+      "fecha": "2025-09-18"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 4,
+    "content_hash": "b3c85f1af6708907a4e773b6584c78ee",
+    "processing_timestamp": "2025-09-17T11:01:00.887883",
+    "processing_time_seconds": 2.119,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.55
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Logística Express",
+      "monto_total": 26537000,
+      "moneda": "COP",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 5,
+    "content_hash": "6c2f6aa8e979a83228af89622af403d9",
+    "processing_timestamp": "2025-09-17T11:01:03.391331",
+    "processing_time_seconds": 2.503,
+    "document_metadata": {
+      "type": "credit_note",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "NC-2025-055",
+      "proveedor": "Equipos Industriales del Norte",
+      "monto_total": 100000000,
+      "moneda": "COP",
+      "fecha": "2025-09-22"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 6,
+    "content_hash": "5e3f1c87754aa1c0004660fcfc4a3172",
+    "processing_timestamp": "2025-09-17T11:01:06.279393",
+    "processing_time_seconds": 2.886,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "WS-2025-334",
+      "proveedor": "Web Solutions Inc",
+      "monto_total": 12400,
+      "moneda": "USD",
+      "fecha": "2025-09-25"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 7,
+    "content_hash": "e3cb24206aa8599848f42c788e955748",
+    "processing_timestamp": "2025-09-17T11:01:08.911790",
+    "processing_time_seconds": 2.631,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.55
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Oficinas Premium",
+      "monto_total": 34000000,
+      "moneda": "COP",
+      "fecha": "2025-10-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 8,
+    "content_hash": "c1ef3cf4b7fba53013b96354fbffa769",
+    "processing_timestamp": "2025-09-17T11:01:12.108685",
+    "processing_time_seconds": 3.196,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "2025-LG-890",
+      "proveedor": "Legal & Associates Law Firm",
+      "monto_total": 14450,
+      "moneda": "USD",
+      "fecha": "2025-09-28"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 9,
+    "content_hash": "2d3fcbff582f6db2d86cc493ca6d7f15",
+    "processing_timestamp": "2025-09-17T11:01:14.307474",
+    "processing_time_seconds": 2.198,
+    "document_metadata": {
+      "type": "json",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Transportes del Valle SA",
+      "monto_total": 21479500,
+      "moneda": "COP",
+      "fecha": ""
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 10,
+    "content_hash": "f2d47fdd602f5b8a9e7ef24be2521ee7",
+    "processing_timestamp": "2025-09-17T11:01:16.572976",
+    "processing_time_seconds": 2.264,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "N/A",
+      "proveedor": "Maintenance Pro",
+      "monto_total": 2983.75,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 11,
+    "content_hash": "4959a5187b5ca6ed763bb37d6452424b",
+    "processing_timestamp": "2025-09-17T11:01:19.858932",
+    "processing_time_seconds": 3.285,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "2025-MKT-567",
+      "proveedor": "Agencia Creativa Digital",
+      "monto_total": 127330000,
+      "moneda": "COP",
+      "fecha": "2025-09-30"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 12,
+    "content_hash": "9cabde253825e88b19e216287fe1a0fd",
+    "processing_timestamp": "2025-09-17T11:01:23.108507",
+    "processing_time_seconds": 3.249,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Office Supplies Plus",
+      "monto_total": 1789.48,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 13,
+    "content_hash": "d8926f658d48d028fda49c286a52cafd",
+    "processing_timestamp": "2025-09-17T11:01:26.045944",
+    "processing_time_seconds": 2.935,
+    "document_metadata": {
+      "type": "email",
+      "language": "unknown",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "N/A",
+      "proveedor": "Seguros Colombia",
+      "monto_total": 138000000,
+      "moneda": "COP",
+      "fecha": "2025-10-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 14,
+    "content_hash": "ab93bb27725001f20803bc78afec0aa8",
+    "processing_timestamp": "2025-09-17T11:01:29.169945",
+    "processing_time_seconds": 3.122,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "PO-2025-445",
+      "proveedor": "Hardware Depot International",
+      "monto_total": 20350,
+      "moneda": "USD",
+      "fecha": "2025-09-15"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 15,
+    "content_hash": "3126f3925d0a6aa4f61690d72e027ce8",
+    "processing_timestamp": "2025-09-17T11:01:31.813452",
+    "processing_time_seconds": 2.643,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Telecomunicaciones Avanzadas SA",
+      "monto_total": 12400000,
+      "moneda": "COP",
+      "fecha": "2025-10-10"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 16,
+    "content_hash": "a2d7e3eaee916baa041236872b6b57a6",
+    "processing_timestamp": "2025-09-17T11:01:35.284652",
+    "processing_time_seconds": 3.469,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.55
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Conference Center",
+      "monto_total": 11269,
+      "moneda": "USD",
+      "fecha": "2025-09-26"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 17,
+    "content_hash": "2bcaf348fad3df8650599fe19abdba57",
+    "processing_timestamp": "2025-09-17T11:01:38.794799",
+    "processing_time_seconds": 3.509,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "FS-2025-778",
+      "proveedor": "Consultoría en Sistemas Financieros",
+      "monto_total": 116025000,
+      "moneda": "COP",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 18,
+    "content_hash": "970ad3cc8b9725b8367a73a9b9c82ee3",
+    "processing_timestamp": "2025-09-17T11:01:42.468326",
+    "processing_time_seconds": 3.673,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Travel Solutions Agency",
+      "monto_total": 2610.0,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 19,
+    "content_hash": "f3608183714184a4d4284b1f189507ec",
+    "processing_timestamp": "2025-09-17T11:01:44.881888",
+    "processing_time_seconds": 2.413,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "987654321",
+      "proveedor": "Energia Bogota",
+      "monto_total": 9360242,
+      "moneda": "COP",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 20,
+    "content_hash": "b3f759578f2074fc91e7f50113dccf99",
+    "processing_timestamp": "2025-09-17T11:01:48.417492",
+    "processing_time_seconds": 3.535,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "2025-SEC-991",
+      "proveedor": "CyberSecurity Solutions Ltd.",
+      "monto_total": 15500.0,
+      "moneda": "USD",
+      "fecha": "2025-10-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 21,
+    "content_hash": "7eab03c5712e6e84fd970f2ee3385291",
+    "processing_timestamp": "2025-09-17T11:01:50.614891",
+    "processing_time_seconds": 2.195,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "CM-2025-123",
+      "proveedor": "Papelería Corporativa SA",
+      "monto_total": 8750000,
+      "moneda": "COP",
+      "fecha": "2025-09-28"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 22,
+    "content_hash": "13db8eedf2846d16518fd4543005cf96",
+    "processing_timestamp": "2025-09-17T11:01:53.206760",
+    "processing_time_seconds": 2.591,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "CWS-COBRE-0925",
+      "proveedor": "coworking-space.com",
+      "monto_total": 7900,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 23,
+    "content_hash": "c6f97a829c627973efeacea74844a51c",
+    "processing_timestamp": "2025-09-17T11:01:56.591634",
+    "processing_time_seconds": 3.384,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "FM-2025-156",
+      "proveedor": "Servicios de Limpieza Integral",
+      "monto_total": 27400000,
+      "moneda": "COP",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 24,
+    "content_hash": "38932de433e229dd5b30071116688168",
+    "processing_timestamp": "2025-09-17T11:01:59.633418",
+    "processing_time_seconds": 3.042,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "ATA-2025-445",
+      "proveedor": "Accounting & Tax Advisors",
+      "monto_total": 4020.0,
+      "moneda": "USD",
+      "fecha": "2025-09-30"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 25,
+    "content_hash": "80062a133fa3d1a724bd7731b7dfb175",
+    "processing_timestamp": "2025-09-17T11:02:02.193439",
+    "processing_time_seconds": 2.56,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "N/A",
+      "proveedor": "Equipo Medico",
+      "monto_total": 35462000,
+      "moneda": "COP",
+      "fecha": "2025-10-05"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 26,
+    "content_hash": "dbe09f9bf3b813a826c63dc30c65227e",
+    "processing_timestamp": "2025-09-17T11:02:04.037225",
+    "processing_time_seconds": 1.843,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "SOW-2025-789",
+      "proveedor": "Digital Transformation Consultants",
+      "monto_total": 95500,
+      "moneda": "USD",
+      "fecha": "2025-11-15"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 27,
+    "content_hash": "86cdb584ed3ed41b67f79b317b762752",
+    "processing_timestamp": "2025-09-17T11:02:06.573626",
+    "processing_time_seconds": 2.535,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Software Solutions Inc",
+      "monto_total": 4750,
+      "moneda": "USD",
+      "fecha": "2025-10-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 28,
+    "content_hash": "453e2f89c731bd5fad1759a211cad269",
+    "processing_timestamp": "2025-09-17T11:02:08.650802",
+    "processing_time_seconds": 2.076,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "INV-2025-RENT-78",
+      "proveedor": "Premium Business Park",
+      "monto_total": 53000,
+      "moneda": "USD",
+      "fecha": "2025-10-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 29,
+    "content_hash": "887a5924d5de2a3afe53dd7325680981",
+    "processing_timestamp": "2025-09-17T11:02:10.552941",
+    "processing_time_seconds": 1.901,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.55
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Corporate Training Solutions",
+      "monto_total": 17250.0,
+      "moneda": "USD",
+      "fecha": "2025-09-20"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 30,
+    "content_hash": "2026a98ed7947960fc4e7090ebd0ec41",
+    "processing_timestamp": "2025-09-17T11:02:12.661777",
+    "processing_time_seconds": 2.108,
+    "document_metadata": {
+      "type": "email",
+      "language": "unknown",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "N/A",
+      "proveedor": "auditoria-fiscal.co",
+      "monto_total": 261800000,
+      "moneda": "COP",
+      "fecha": "2025-12-31"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 31,
+    "content_hash": "f694dfe4e2a0bccaf2cdbfbfbeb7124d",
+    "processing_timestamp": "2025-09-17T11:02:15.142343",
+    "processing_time_seconds": 2.481,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "MS-2025-334",
+      "proveedor": "Occupational Health Clinic",
+      "monto_total": 7830,
+      "moneda": "USD",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 32,
+    "content_hash": "bcde66738b7772b33222b7c3a600b5c0",
+    "processing_timestamp": "2025-09-17T11:02:17.879430",
+    "processing_time_seconds": 2.736,
+    "document_metadata": {
+      "type": "json",
+      "language": "unknown",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "WAT-4567-890",
+      "proveedor": "Acueducto de Bogotá",
+      "monto_total": 3187500,
+      "moneda": "COP",
+      "fecha": "2025-09-30"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 33,
+    "content_hash": "c63e47dc7b6fd072dc18933b6ec3dd1b",
+    "processing_timestamp": "2025-09-17T11:02:19.748578",
+    "processing_time_seconds": 1.868,
+    "document_metadata": {
+      "type": "email",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.55
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "marketing@promotional-items.com",
+      "monto_total": 23200,
+      "moneda": "USD",
+      "fecha": ""
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 34,
+    "content_hash": "023f3234e0bb1d851901f4dba2cf320b",
+    "processing_timestamp": "2025-09-17T11:02:23.877276",
+    "processing_time_seconds": 4.128,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "FC-2025-667",
+      "proveedor": "Constructora Moderna S.A.S.",
+      "monto_total": 654500000,
+      "moneda": "COP",
+      "fecha": "2025-09-28"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 35,
+    "content_hash": "9cc08ed5f4506430d8dd53e0a87382b7",
+    "processing_timestamp": "2025-09-17T11:02:27.041396",
+    "processing_time_seconds": 3.163,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.25
+    },
+    "extracted_data": {
+      "numero_factura": "CL-2025-8901",
+      "proveedor": "Global Risk Management",
+      "monto_total": 17475.0,
+      "moneda": "USD",
+      "fecha": "2025-09-15"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "manager_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 36,
+    "content_hash": "9a0d261d07ce9fedbfc2f84c1e0396a3",
+    "processing_timestamp": "2025-09-17T11:02:29.879309",
+    "processing_time_seconds": 2.836,
+    "document_metadata": {
+      "type": "email",
+      "language": "unknown",
+      "processing_status": "routed",
+      "risk_score": 0.45
+    },
+    "extracted_data": {
+      "numero_factura": "",
+      "proveedor": "Transporte Ejecutivo",
+      "monto_total": 1918000,
+      "moneda": "COP",
+      "fecha": "2025-09-01"
+    },
+    "validation": {
+      "errors": [
+        "Numero Factura faltante"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 37,
+    "content_hash": "57adc1edee39f1817a98ca6e89c25ed0",
+    "processing_timestamp": "2025-09-17T11:02:32.647065",
+    "processing_time_seconds": 2.767,
+    "document_metadata": {
+      "type": "email",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 1.0
+    },
+    "extracted_data": {},
+    "validation": {
+      "errors": [
+        "Numero Factura faltante",
+        "Proveedor faltante",
+        "Monto Total faltante",
+        "Monto inválido o cero"
+      ],
+      "is_valid": false,
+      "critical_fields_complete": false
+    },
+    "approval": {
+      "decision": "rejected",
+      "requires_human_review": true,
+      "risk_level": "high"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": false,
+      "reporting_system": true,
+      "compliance_check": false
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 0,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 38,
+    "content_hash": "f2376af6eda28e868b0880ff02c27825",
+    "processing_timestamp": "2025-09-17T11:02:34.943364",
+    "processing_time_seconds": 2.296,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "CHS-COBRE-2025",
+      "proveedor": "Cloud Hosting Solutions",
+      "monto_total": 42750,
+      "moneda": "USD",
+      "fecha": "2026-01-01"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 39,
+    "content_hash": "f9552131848ee4ad2f19239a59a889d8",
+    "processing_timestamp": "2025-09-17T11:02:36.594948",
+    "processing_time_seconds": 1.651,
+    "document_metadata": {
+      "type": "formal_invoice",
+      "language": "spanish",
+      "processing_status": "routed",
+      "risk_score": 0.15
+    },
+    "extracted_data": {
+      "numero_factura": "F-2025-890",
+      "proveedor": "Servicios Públicos Empresariales",
+      "monto_total": 6307000,
+      "moneda": "COP",
+      "fecha": "2025-10-25"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "supervisor_review",
+      "requires_human_review": true,
+      "risk_level": "low"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  },
+  {
+    "invoice_id": 40,
+    "content_hash": "ddc788e0b0349f99955b168487a451b8",
+    "processing_timestamp": "2025-09-17T11:02:38.782927",
+    "processing_time_seconds": 2.187,
+    "document_metadata": {
+      "type": "json",
+      "language": "english",
+      "processing_status": "routed",
+      "risk_score": 0.35
+    },
+    "extracted_data": {
+      "numero_factura": "FINAL-2025-999",
+      "proveedor": "International Consulting Group",
+      "monto_total": 43500,
+      "moneda": "USD",
+      "fecha": "2025-09-30"
+    },
+    "validation": {
+      "errors": [],
+      "is_valid": true,
+      "critical_fields_complete": true
+    },
+    "approval": {
+      "decision": "executive_review",
+      "requires_human_review": true,
+      "risk_level": "medium"
+    },
+    "integration_ready": {
+      "payment_system": false,
+      "erp_system": true,
+      "reporting_system": true,
+      "compliance_check": true
+    },
+    "audit_trail": {
+      "api_calls_used": 1,
+      "vendor_frequency": 1,
+      "processing_node_path": [
+        "detect_format",
+        "extract_data",
+        "validate_risk",
+        "approval_routing",
+        "generate_output"
+      ]
+    }
+  }
+]

@@ -1,0 +1,510 @@
+id,content
+1,"FACTURA #F-2025-001
+TechSolutions México S.A. de C.V.
+NIT: 900123456-7
+Calle 72 #10-34, Bogotá D.C.
+
+CLIENTE: Cobre Pagos S.A.
+NIT: 901234567-8
+
+Fecha: 15 de Septiembre, 2025
+Folio: FACT-2025-0891
+
+CONCEPTO                    CANTIDAD    PRECIO    IMPORTE
+Licencias de Software         12     $2,500,000   $30,000,000
+Soporte Técnico Anual         1      $8,000,000   $8,000,000
+
+                              SUBTOTAL:           $38,000,000
+                              IVA (19%):          $7,220,000
+                              TOTAL:              $45,220,000
+
+Condiciones de Pago: 30 días
+Cuenta: 1234567890 - Banco de Bogotá"
+2,"From: billing@cloudservices.com
+To: accounts@cobre.com
+Subject: Invoice CS-2025-445 - September Cloud Services
+
+Hi Cobre Team,
+
+Invoice for September 2025 cloud infrastructure:
+- AWS Infrastructure: $12,500 USD
+- Database Management: $3,200 USD  
+- Security Monitoring: $1,800 USD
+Total: $17,500 USD
+
+Payment due: October 15, 2025
+Wire details in attachment.
+
+CloudServices LATAM"
+3,"{""invoice_number"": ""2025-INV-1102"", ""date"": ""2025-09-18"", ""vendor"": ""Consultoria Fiscal SA"", ""client"": ""Cobre Pagos SA"", ""items"": [{""description"": ""Auditoría financiera"", ""quantity"": 1, ""rate"": 45000000, ""total"": 45000000}, {""description"": ""Consultoría legal"", ""quantity"": 20, ""rate"": 800000, ""total"": 16000000}], ""subtotal"": 61000000, ""tax"": 11590000, ""total"": 72590000, ""currency"": ""COP""}"
+4,"From: facturacion@logistica-express.co
+Para: pagos@cobre.com
+Asunto: Factura Septiembre - Servicios de Entrega
+
+Estimados,
+
+Servicios de entrega septiembre 2025:
+• 450 entregas urbanas @ $25,000 c/u = $11,250,000
+• 120 entregas foráneas @ $85,000 c/u = $10,200,000
+• Seguro de paquetes: $850,000
+
+Subtotal: $22,300,000 COP
+IVA: $4,237,000 COP
+Total: $26,537,000 COP
+
+Vencimiento: 15 días
+Cuenta Bancolombia: 012345678901234567
+
+Saludos,
+Logística Express"
+5,"NOTA DE CRÉDITO #NC-2025-055
+Proveedor: Equipos Industriales del Norte
+NIT: 800456789-2
+
+Cliente: Cobre Pagos S.A.
+Fecha: 22/09/2025
+
+CONCEPTO: Devolución de equipos defectuosos
+Factura Original: F-2025-778
+Monto Original: $125,000,000
+Descuento aplicado: $25,000,000
+MONTO A ACREDITAR: $100,000,000 COP
+
+Esta nota de crédito debe aplicarse a su cuenta."
+6,"{""invoice_number"": ""WS-2025-334"", ""vendor"": ""Web Solutions Inc"", ""date"": ""2025-09-25"", ""items"": [{""service"": ""Website Redesign"", ""hours"": 120, ""rate"": 75, ""total"": 9000}, {""service"": ""SEO Optimization"", ""hours"": 40, ""rate"": 85, ""total"": 3400}], ""currency"": ""USD"", ""total"": 12400, ""due_date"": ""2025-10-25""}"
+7,"From: admin@oficinas-premium.co
+To: cuentas@cobre.com
+Subject: Factura Mensual - Renta de Oficinas
+
+Cobre Pagos S.A.
+
+Renta oficinas Torre Empresarial:
+- Piso 15, Oficina A: $28,000,000 COP
+- Servicios incluidos: $3,500,000 COP
+- Parqueadero (5 lugares): $2,500,000 COP
+
+Total mensual: $34,000,000 COP
+Período: Octubre 2025
+Vence: 5 de cada mes
+
+Cuenta Davivienda: 0123456789012345"
+8,"INVOICE #2025-LG-890
+Legal & Associates Law Firm
+1234 Corporate Blvd, Miami, FL
+
+Client: Cobre Pagos S.A.
+Date: September 28, 2025
+
+Legal Services Rendered:
+- Contract Review (15 hours @ $350/hr): $5,250
+- Regulatory Compliance (8 hours @ $400/hr): $3,200  
+- Court Representation (12 hours @ $500/hr): $6,000
+
+Total Professional Fees: $14,450 USD
+Payment Terms: Due upon receipt
+Wire Transfer: Chase Bank NY, ABA: 021000021"
+9,"{""document_type"": ""factura_electronica"", ""emisor"": {""nombre"": ""Transportes del Valle SA"", ""nit"": ""900345678-9""}, ""receptor"": {""nombre"": ""Cobre Pagos SA"", ""nit"": ""901234567-8""}, ""conceptos"": [{""descripcion"": ""Flete terrestre"", ""cantidad"": 1, ""valor_unitario"": 15500000}, {""descripcion"": ""Maniobras"", ""cantidad"": 3, ""valor_unitario"": 850000}], ""subtotal"": 18050000, ""iva"": 3429500, ""total"": 21479500, ""moneda"": ""COP""}"
+10,"From: billing@maintenance-pro.com
+To: finance@cobre.com  
+Subject: Monthly Maintenance Invoice - Equipment Service
+
+Dear Cobre Team,
+
+September 2025 Maintenance Services:
+✓ Server room cleaning: $450
+✓ HVAC system service: $1,200
+✓ Fire suppression check: $300
+✓ Emergency generator test: $800
+
+Subtotal: $2,750 USD
+Tax (8.5%): $233.75
+Total: $2,983.75 USD
+
+Net 15 terms
+Account: Wells Fargo 4567891234567890"
+11,"FACTURA #2025-MKT-567
+Agencia Creativa Digital
+NIT: 800789123-4
+
+Para: Cobre Pagos S.A.
+Fecha: 30/09/2025
+
+Campaña publicitaria Q3 2025:
+- Diseño gráfico: $18,000,000
+- Producción video: $32,000,000  
+- Pauta digital: $45,000,000
+- Gestión de redes: $12,000,000
+
+Subtotal: $107,000,000 COP
+IVA (19%): $20,330,000 COP
+TOTAL: $127,330,000 COP
+
+Términos: 45 días
+Banco: Banco de Occidente"
+12,"{""vendor"": ""Office Supplies Plus"", ""period"": ""September 2025"", ""line_items"": [{""code"": ""P001"", ""description"": ""Paper A4 (50 boxes)"", ""quantity"": 50, ""unit_price"": 12.50, ""total"": 625.00}, {""code"": ""T002"", ""description"": ""Toner cartridges"", ""quantity"": 8, ""unit_price"": 85.00, ""total"": 680.00}, {""code"": ""M003"", ""description"": ""Miscellaneous supplies"", ""quantity"": 1, ""unit_price"": 340.50, ""total"": 340.50}], ""subtotal"": 1645.50, ""tax_rate"": 0.0875, ""tax"": 143.98, ""total"": 1789.48, ""currency"": ""USD""}"
+13,"De: contabilidad@seguros-colombia.co
+Para: finanzas@cobre.com
+Asunto: Póliza de Seguros - Prima Anual
+
+Estimado equipo de Cobre,
+
+Renovación póliza de seguros corporativa:
+
+Coberturas:
+- Responsabilidad civil: $45,000,000 COP
+- Seguro de equipos: $28,000,000 COP  
+- Seguro de directivos: $65,000,000 COP
+
+Prima anual total: $138,000,000 COP
+Vigencia: 01/Oct/2025 - 30/Sep/2026
+Pago requerido antes del 15/10/2025
+
+Cuenta Bancolombia: 014567890123456789"
+14,"PURCHASE ORDER INVOICE #PO-2025-445
+Hardware Depot International
+Austin, TX 78701
+
+Ship To: Cobre Pagos S.A.
+Bogotá, Colombia
+
+Order Date: September 15, 2025
+Ship Date: September 22, 2025
+
+Items Ordered:
+- Dell PowerEdge Servers (qty: 3) @ $4,500 each = $13,500
+- Network Switches (qty: 5) @ $800 each = $4,000
+- UPS Systems (qty: 2) @ $1,200 each = $2,400
+
+Subtotal: $19,900 USD
+Shipping: $450 USD  
+Tax: $0 (Export)
+Total: $20,350 USD
+
+Payment Terms: 2/10 Net 30"
+15,"{""invoice_type"": ""service_billing"", ""provider"": ""Telecomunicaciones Avanzadas SA"", ""client"": ""Cobre Pagos SA"", ""billing_period"": ""2025-09"", ""services"": [{""service"": ""Internet dedicado 100Mbps"", ""monthly_fee"": 8500000}, {""service"": ""Líneas telefónicas (20)"", ""monthly_fee"": 2400000}, {""service"": ""Monitoreo 24/7"", ""monthly_fee"": 1500000}], ""total"": 12400000, ""currency"": ""COP"", ""due_date"": ""2025-10-10""}"
+16,"From: events@conference-center.com
+To: accounting@cobre.com
+Subject: Event Invoice - Executive Conference
+
+Cobre Executive Team,
+
+Conference services provided September 25-26, 2025:
+
+Day 1:
+- Main auditorium rental: $2,500
+- A/V equipment: $800
+- Catering lunch (50 people): $1,750
+
+Day 2:  
+- Breakout rooms (3): $900
+- Coffee service: $400
+- Dinner reception: $3,200
+
+Total: $9,550 USD
+Gratuity (18%): $1,719
+Grand Total: $11,269 USD
+
+Payment due: 30 days"
+17,"FACTURA DE SERVICIOS #FS-2025-778
+Consultoría en Sistemas Financieros
+NIT: 900567891-2
+
+Cliente: Cobre Pagos S.A.
+Período: Septiembre 2025
+
+Servicios prestados:
+- Análisis de sistemas de pago: 40 hrs @ $1,200,000/hr = $48,000,000
+- Implementación de mejoras: 25 hrs @ $1,500,000/hr = $37,500,000
+- Capacitación técnica: 15 hrs @ $800,000/hr = $12,000,000
+
+Subtotal: $97,500,000 COP
+IVA: $18,525,000 COP  
+Total: $116,025,000 COP
+
+Condiciones: 60 días
+Forma de pago: Transferencia electrónica"
+18,"{""expense_report_type"": ""travel"", ""vendor"": ""Travel Solutions Agency"", ""report_period"": ""September 2025"", ""expenses"": [{""type"": ""flight"", ""route"": ""Bogotá to São Paulo"", ""cost"": 1250.00}, {""type"": ""hotel"", ""nights"": 5, ""rate"": 180.00, ""total"": 900.00}, {""type"": ""meals"", ""total"": 340.00}, {""type"": ""ground_transport"", ""total"": 120.00}], ""total_expenses"": 2610.00, ""currency"": ""USD""}"
+19,"De: facturacion@energia-bogota.co
+Para: pagos@cobre.com
+Asunto: Factura Energía Eléctrica - Septiembre 2025
+
+Cobre Pagos S.A.
+
+Consumo eléctrico septiembre 2025:
+- Energía consumida: 12,450 kWh @ $285/kWh = $3,548,250
+- Demanda máxima: 285 kW @ $14,500/kW = $4,132,500  
+- Servicios básicos: $185,000
+
+Subtotal: $7,865,750 COP
+IVA (19%): $1,494,492 COP
+Total: $9,360,242 COP
+
+Fecha límite de pago: 20/10/2025
+Número de servicio: 987654321"
+20,"INVOICE #2025-SEC-991
+CyberSecurity Solutions Ltd.
+New York, NY 10001
+
+Client: Cobre Pagos S.A.
+Invoice Date: October 1, 2025
+
+Security Assessment Services:
+- Penetration Testing: $8,500.00
+- Vulnerability Analysis: $4,200.00
+- Security Report & Recommendations: $2,800.00
+
+Total: $15,500.00 USD
+Payment Terms: 14 days from invoice date
+Bank Details: Chase Bank NY, ABA: 021000021"
+21,"{""document_type"": ""credit_memo"", ""number"": ""CM-2025-123"", ""date"": ""2025-09-28"", ""vendor"": ""Papelería Corporativa SA"", ""original_invoice"": ""F-2025-667"", ""reason"": ""Productos defectuosos devueltos"", ""credit_amount"": 8750000, ""currency"": ""COP"", ""application_instructions"": ""Aplicar a cuenta corriente""}"
+22,"From: admin@coworking-space.com
+To: accounts@cobre.com
+Subject: Monthly Workspace Invoice
+
+Hi Cobre Team,
+
+September 2025 coworking space usage:
+
+- Hot desks (15 employees): $300/month each = $4,500
+- Private office (Executive floor): $1,800/month
+- Meeting room bookings: 25 hours @ $45/hour = $1,125
+- Printing services: $280
+- Coffee & snacks: $195
+
+Total: $7,900 USD
+Payment due: October 15th
+Reference: CWS-COBRE-0925"
+23,"FACTURA MENSUAL #FM-2025-156
+Servicios de Limpieza Integral  
+NIT: 800234567-1
+
+Para: Cobre Pagos S.A.
+Mes: Septiembre 2025
+
+Servicios de limpieza:
+- Oficinas principales (diario): $18,500,000
+- Baños y áreas comunes: $4,200,000
+- Ventanas (semanal): $2,800,000
+- Servicios especiales: $1,900,000
+
+Total mensual: $27,400,000 COP
+IVA incluido en precio
+
+Condiciones de pago: 15 días
+Cuenta Davivienda: 1098765432109876"
+24,"{""invoice_type"": ""professional_services"", ""firm_name"": ""Accounting & Tax Advisors"", ""invoice_number"": ""ATA-2025-445"", ""date"": ""2025-09-30"", ""services"": [{""name"": ""Monthly bookkeeping"", ""hours"": 20, ""rate"": 85, ""subtotal"": 1700}, {""name"": ""Tax preparation"", ""hours"": 8, ""rate"": 125, ""subtotal"": 1000}, {""name"": ""Financial statements"", ""hours"": 12, ""rate"": 110, ""subtotal"": 1320}], ""total_professional_fees"": 4020.00, ""currency"": ""USD""}"
+25,"De: ventas@equipo-medico.co
+Para: compras@cobre.com
+Asunto: Factura Equipos de Primeros Auxilios
+
+Cobre Pagos S.A.
+
+Equipos de seguridad para oficinas:
+
+Botiquines de primeros auxilios:
+- Básicos (10 unidades): $450,000 c/u = $4,500,000
+- Industriales (3 unidades): $1,200,000 c/u = $3,600,000
+- Desfibrilador portátil: $18,500,000
+- Capacitación de personal: $3,200,000
+
+Subtotal: $29,800,000 COP
+IVA (19%): $5,662,000 COP
+Total: $35,462,000 COP
+
+Entrega: Octubre 5, 2025
+Términos: Contra entrega"
+26,"STATEMENT OF WORK INVOICE #SOW-2025-789
+Digital Transformation Consultants
+San Francisco, CA 94105
+
+Project: Payment System Modernization
+Client: Cobre Pagos S.A.
+Period: Q3 2025
+
+Phase 1 - Analysis & Design:
+- Business Process Analysis: $45,000
+- Technical Architecture: $32,000
+- Security Assessment: $18,500
+
+Phase 1 Total: $95,500 USD
+Project milestone: 40% complete
+Payment terms: Net 45
+Next milestone due: November 15, 2025"
+27,"{""invoice_category"": ""recurring_subscription"", ""vendor"": ""Software Solutions Inc"", ""period"": ""Q4 2025"", ""licenses"": [{""software"": ""CRM Enterprise"", ""users"": 50, ""price_per_user"": 45, ""total"": 2250}, {""software"": ""Analytics Pro"", ""users"": 25, ""price_per_user"": 80, ""total"": 2000}], ""support_level"": ""Premium"", ""support_cost"": 500, ""quarterly_total"": 4750, ""currency"": ""USD""}"
+28,"INVOICE #INV-2025-RENT-78
+Premium Business Park
+Property Management Division
+
+Tenant: Cobre Pagos S.A.
+Property: Building C, Floor 8
+Period: October 2025
+
+Monthly Rent: $45,000 USD
+Common Area Maintenance: $3,200 USD  
+Utilities Estimate: $2,800 USD
+Parking (20 spaces): $2,000 USD
+
+Total Monthly: $53,000 USD
+Due Date: 1st of each month
+Late Fee: 5% after 5 days
+Property Tax: Included in CAM"
+29,"{""training_invoice"": true, ""provider"": ""Corporate Training Solutions"", ""course_title"": ""Financial Regulations Compliance"", ""dates"": ""2025-09-20 to 2025-09-22"", ""participants"": 15, ""costs"": {""instruction_fees"": 12500.00, ""materials"": 750.00, ""facility_rental"": 1800.00, ""catering"": 2200.00}, ""total"": 17250.00, ""currency"": ""USD""}"
+30,"De: direccion@auditoria-fiscal.co
+Para: administracion@cobre.com  
+Asunto: Honorarios Auditoría Externa 2025
+
+Estimados Colegas,
+
+Auditoría externa ejercicio fiscal 2025:
+
+Servicios realizados:
+- Auditoría de estados financieros: $125,000,000
+- Revisión de cumplimiento fiscal: $45,000,000
+- Auditoría de sistemas: $35,000,000  
+- Carta de recomendaciones: $15,000,000
+
+Total honorarios: $220,000,000 COP
+IVA (19%): $41,800,000 COP
+Total a pagar: $261,800,000 COP
+
+Vencimiento: 30 días naturales
+Cuenta Bancolombia: 036180000123456789"
+31,"MEDICAL SERVICES INVOICE #MS-2025-334
+Occupational Health Clinic
+Industrial Safety Division
+
+Client: Cobre Pagos S.A.  
+Service Period: September 2025
+
+Employee Health Services:
+- Annual medical exams (45 employees): $150 each = $6,750
+- Drug screening tests (8 new hires): $85 each = $680
+- Workplace injury treatment: $450
+- Health & safety training: $1,200
+
+Total Medical Services: $9,080 USD
+Insurance co-pay applied: -$1,250
+Amount Due: $7,830 USD
+
+Payment Terms: Due in 15 days"
+32,"{""billing_type"": ""utility_water"", ""service_provider"": ""Acueducto de Bogotá"", ""account_number"": ""WAT-4567-890"", ""billing_period"": {""start"": ""2025-09-01"", ""end"": ""2025-09-30""}, ""usage"": {""cubic_meters"": 1450, ""rate_per_m3"": 1850}, ""charges"": {""water_usage"": 2682500, ""sewer_service"": 420000, ""environmental_fee"": 85000}, ""total"": 3187500, ""currency"": ""COP""}"
+33,"From: marketing@promotional-items.com  
+To: procurement@cobre.com
+Subject: Corporate Gifts - Employee Recognition Program
+
+Dear Cobre Team,
+
+Custom promotional items for employee recognition:
+
+Items produced:
+- Branded laptops bags (200 units): $35 each = $7,000
+- Premium pens with logo (500 units): $12 each = $6,000  
+- Desk accessories set (100 units): $45 each = $4,500
+- Custom awards/plaques (25 units): $180 each = $4,500
+
+Subtotal: $22,000 USD
+Shipping & handling: $450 USD
+Rush order surcharge: $750 USD
+
+Total: $23,200 USD
+Net 30 terms"
+34,"FACTURA DE CONSTRUCCIÓN #FC-2025-667
+Constructora Moderna S.A.S.
+NIT: 890123456-7
+
+Proyecto: Remodelación Oficinas Cobre
+Cliente: Cobre Pagos S.A.
+Fecha: 28/09/2025
+
+Trabajos realizados:
+- Demolición y preparación: $85,000,000
+- Instalación eléctrica: $125,000,000
+- Instalación de red/datos: $95,000,000
+- Pintura y acabados: $65,000,000
+- Mobiliario modular: $180,000,000
+
+Subtotal: $550,000,000 COP
+IVA (19%): $104,500,000 COP
+Total: $654,500,000 COP
+
+Avance: 75% del proyecto
+Retención (10%): $55,000,000 COP"
+35,"{""claim_processing"": true, ""claim_number"": ""CL-2025-8901"", ""insurance_provider"": ""Global Risk Management"", ""incident_date"": ""2025-09-15"", ""claim_type"": ""Equipment Damage"", ""damages"": [{""description"": ""Server hardware"", ""replacement_cost"": 15000, ""covered_amount"": 12750}, {""description"": ""Network equipment"", ""replacement_cost"": 8500, ""covered_amount"": 7225}], ""deductible"": 2500, ""total_settlement"": 17475.00, ""currency"": ""USD""}"
+36,"De: gerencia@transporte-ejecutivo.co
+Para: gastos@cobre.com
+Asunto: Servicios de Transporte Ejecutivo - Septiembre
+
+Cobre Pagos S.A.
+
+Servicios de transporte ejecutivo septiembre 2025:
+
+Traslados realizados:
+- Aeropuerto ↔ Oficina (12 viajes): $45,000 c/u = $540,000
+- Reuniones de negocios (8 servicios): $32,000 c/u = $256,000  
+- Eventos corporativos (4 servicios): $68,000 c/u = $272,000
+- Disponibilidad mensual: $850,000
+
+Total: $1,918,000 COP
+IVA incluido
+
+Condiciones: 20 días  
+Cuenta BBVA: 4567890123456789"
+37,"PROFESSIONAL SERVICES AGREEMENT INVOICE
+Invoice #PSA-2025-445
+Regulatory Compliance Consultants LLC
+Washington, DC 20001
+
+Client: Cobre Pagos S.A.
+Agreement Period: Q3 2025
+
+Compliance Services Provided:
+- Regulatory filing assistance: 40 hours @ $275/hour = $11,000
+- Policy review and updates: 25 hours @ $225/hour = $5,625
+- Training materials development: 15 hours @ $200/hour = $3,000
+- Government liaison services: 20 hours @ $350/hour = $7,000
+
+Total Professional Fees: $26,625 USD
+Expenses (travel, filing fees): $1,845 USD
+Grand Total: $28,470 USD
+
+Payment Terms: Due within 45 days"
+38,"{""invoice_format"": ""subscription_renewal"", ""service_provider"": ""Cloud Hosting Solutions"", ""account"": ""CHS-COBRE-2025"", ""renewal_period"": ""Annual 2026"", ""services"": [{""tier"": ""Enterprise Cloud"", ""monthly_cost"": 2500, ""annual_total"": 30000}, {""tier"": ""Database Management"", ""monthly_cost"": 800, ""annual_total"": 9600}, {""tier"": ""Backup & Recovery"", ""monthly_cost"": 450, ""annual_total"": 5400}], ""total_annual"": 45000, ""discount_early_payment"": 2250, ""net_amount"": 42750, ""currency"": ""USD""}"
+39,"FACTURA #F-2025-890
+Servicios Públicos Empresariales
+NIT: 800999888-1
+
+Cliente: Cobre Pagos S.A.
+Período: Septiembre 2025
+
+Servicios públicos:
+- Gas natural: $2,450,000 COP
+- Acueducto y alcantarillado: $1,850,000 COP
+- Aseo y recolección: $680,000 COP
+- Alumbrado público: $320,000 COP
+
+Subtotal: $5,300,000 COP
+IVA (19%): $1,007,000 COP
+Total: $6,307,000 COP
+
+Fecha de vencimiento: 25/10/2025
+Cuenta Banco Popular: 220567890123456789"
+40,"INVOICE #FINAL-2025-999
+International Consulting Group
+Boston, MA 02101
+
+Client: Cobre Pagos S.A.
+Project: Market Expansion Strategy
+Final Invoice Date: September 30, 2025
+
+Final Phase Deliverables:
+- Market research report: $18,500
+- Strategic recommendations: $12,000
+- Implementation roadmap: $8,750
+- Executive presentation: $4,250
+
+Project Total: $43,500 USD
+Previous payments: -$30,000 USD
+Final Amount Due: $13,500 USD
+
+Payment Terms: Net 15 days
+Project completion: 100%"
